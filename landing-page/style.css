@@ -6,14 +6,37 @@ body {
 }
 
 .indigo {
-    background-color: blue;
+    background-color: rgb(21, 21, 128);
     display: flex;
     flex: 1;
     flex-basis: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    width: 300px;
+    flex-shrink: 0;
 }
 
 .awesome-text {
     color: white;
     font-weight: 900;
     font-size: 24px;
+}
+
+.white {
+    display: flex;
+    flex: 1;
+}
+
+.gray {
+    display: flex;
+    flex: 1;
+}
+
+.sign-up {
+    display: flex;
+    flex: 1;
 }
