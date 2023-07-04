@@ -1,0 +1,29 @@
+.red-class,
+.big-red-class {
+    background-color: rgb(206, 151, 151);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.big-red-class {
+    font-size: 24px;
+}
+
+.red-class {
+    font-size: 18px;
+}
+
+#blue-id {
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(0, 0, 255);
+    font-family:Impact, Haettenschweiler, 
+        'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+#green-id {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    background-color: rgb(100, 200, 100);
+}
