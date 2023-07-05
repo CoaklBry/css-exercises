@@ -90,6 +90,18 @@ img {
     flex: 1;
 }
 
+.white-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.random-info-text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .gray {
     display: flex;
     flex: 1;
