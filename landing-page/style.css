@@ -147,8 +147,22 @@ img {
 }
 
 .gray {
+    background-color: rgb(235, 235, 235);
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor-quote {
+    font-style: italic;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.thor {
+    justify-self: flex-end;
+    align-self: flex-end;
 }
 
 .sign-up {
