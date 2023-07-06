@@ -152,17 +152,20 @@ img {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 60px 72px;
 }
 
 .thor-quote {
+    font-size: larger;
     font-style: italic;
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 .thor {
-    justify-self: flex-end;
-    align-self: flex-end;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .sign-up {
