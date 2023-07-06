@@ -152,19 +152,26 @@ img {
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 60px 72px;
+    padding: 80px 92px;
 }
 
 .thor-quote {
-    font-size: larger;
+    width: 60%;
+    font-size: 24px;
     font-style: italic;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    margin: 0;
+}
+
+.thor-quote p {
+    margin: 0;
 }
 
 .thor {
     font-weight: 700;
+    font-size: 20px;
     font-style: normal;
 }
 
