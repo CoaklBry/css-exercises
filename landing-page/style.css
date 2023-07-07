@@ -32,14 +32,6 @@ img {
     object-fit: cover;
 }
 
-.indigo-content, .white-content, .thor-quote, .sign-up-content {
-    width: 80vw;
-}
-
-.indigo, .white, .gray, .sign-up, header, footer {
-    width: 100vw;
-}
-
 .indigo {
     color: white;
     background-color: #1F2937;
@@ -222,4 +214,9 @@ img {
 .sign-up-text {
     font-size: small;
     margin: 0;
+}
+
+.footer-div {
+    display: flex;
+    flex: 1;
 }
