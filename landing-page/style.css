@@ -2,12 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
     font-family:'Roboto', 'Arial Narrow', Arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
-header {
+header, footer {
     color: white;
     background-color:#1F2937;
     display: flex;
@@ -15,7 +16,15 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+header {
     margin-bottom: 60px;
+}
+
+footer {
+    justify-content: center;
+    padding: 36px;
 }
 
 img {
@@ -26,6 +35,10 @@ img {
 
 .indigo-content, .white-content, .thor-quote, .sign-up-content {
     width: 80vw;
+}
+
+.indigo, .white, .gray, .sign-up, header, footer {
+    width: 100vw;
 }
 
 .indigo {
