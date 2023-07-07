@@ -192,8 +192,22 @@ img {
 .sign-up-content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
     width: 80vw;
+    padding: 36px 60px;
+    border-radius: 5px;;
+}
+
+.call-to-action {
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.sign-up-text {
+    font-size: small;
+    margin: 0;
 }
