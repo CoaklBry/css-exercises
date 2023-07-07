@@ -24,6 +24,10 @@ img {
     object-fit: cover;
 }
 
+.indigo-content, .white-content, .thor-quote, .sign-up-content {
+    width: 80vw;
+}
+
 .indigo {
     color: white;
     background-color: #1F2937;
@@ -181,5 +185,15 @@ img {
     flex: 1;
     justify-content: center;
     align-content: center;
+    background-color: white;
+    padding: 60px;
+}
+
+.sign-up-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
+    width: 80vw;
 }
